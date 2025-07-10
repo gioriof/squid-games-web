@@ -1,0 +1,318 @@
+@font-face {
+    font-family: "Gabarito";
+    src: url(font/Gabarito-VariableFont_wght.ttf);
+}
+
+/* ___________________________________________________________________________ */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body,a{
+    text-decoration: none;
+    font-family: "Gabarito"; 
+}
+
+/**header**/
+
+header img{
+    height: 30px;
+}
+
+header{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 20px 30px;
+ background-color:  #e63e7e;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+nav ul li a{
+    color: white;
+}
+
+#listaheader a:hover{
+    color: #111111;
+}
+
+#botonuno{
+    border: solid 2px white;
+    background-color:  #e50914;
+    border-radius: 10px;
+    padding: 5px 35px;
+    color: white;
+}
+
+#botonuno:hover{
+    background-color: black;
+}
+/**header**/
+
+/**section uno**/
+#banner{
+    background-image: url(img/banner.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cajatexto{
+    width: 600px;
+    text-align: start;
+    padding: 90px 50px;
+}
+
+.cajatexto h1{
+    font-size: 50px;
+    color: white;
+    padding: 20px 0;
+}
+
+.cajatexto p{
+    color: white;
+    padding-bottom: 20px;
+    width: 700px;
+    
+}
+/**section uno**/
+
+/**section dos**/
+#sectiondos{    
+    background-image: url(img/fondo.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 800px;
+    padding-top: 100px;
+}
+
+#contenedorsectiondos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    gap: 20px;
+    width: 1280px;
+    background-color: white;
+    border: solid 3px  #e63e7e;
+}
+
+.articleuno{
+    width: 600px;
+}
+
+.articleuno p{
+    padding: 5px 0;
+    margin-bottom: 20px;
+}
+
+.articleuno hr{
+    color: #e63e7e;
+    width: 1100px;
+}
+
+.articleuno h2{
+    margin-top: 80px;
+}
+
+.articleuno, ul, li{
+   list-style-position: inside;
+
+}
+
+.articleuno h3{
+   margin-top: 50px;
+}
+
+table{
+    width: 400px;
+    text-align: start;
+    margin-top: 10px;
+    
+}
+
+tr td {
+    padding: 5px;
+    border: solid 1px black;
+}
+
+.articledos{
+    margin-top: 100px;
+}
+/**section dos**/
+
+/**section tres**/
+#sectiontres{
+    background-color: #111111;
+    height: 500px;
+}
+
+#sectiontres h2{
+    color: white;
+}
+
+#sectiontres hr{
+    color: #e63e7e;
+}
+
+.contenedorsectiontres{
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.cajatexto{
+    margin: 0 auto;
+    width: 1280px;
+}
+
+.contenedorsectiontres p{
+    text-align: center;
+    color:white;
+}
+
+.contenedorsectiontres a{
+    display: flex;
+    justify-content: center;
+    color: #e63e7e;
+}
+
+.contenedorsectiontres a:hover{
+    color: #f7f1f1;
+}
+/**section tres**/
+
+/**section cuatro**/
+#sectioncuatro{
+    background-image: url(img/fondo.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    padding: 50px 0;
+}
+
+.cajadelasectioncuatro{
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    text-align: start;
+    background-color: white;
+    padding: 50px 50px;
+    border: #e63e7e solid 3px;
+}
+
+.cajatextodos hr{
+    margin-bottom: 20px;
+    width: 1200px;
+    color: #e63e7e;
+}
+.cajadelasectioncuatro p{
+    width: 500px;
+}
+
+.cajadelasectioncuatro h4{
+    margin-bottom: 20px;
+}
+/**section cuatro**/
+
+/**section ultima**/
+#ultima{
+    background-color: black;
+    height: 600px;
+}
+
+
+
+#ultima h2 p{
+    color: white;
+    
+}
+
+.textos{
+    color: white;
+    padding: 5px;
+}
+
+#ultima p{
+    width: 700px;
+    margin-bottom: 20px;
+}
+
+#ultima hr{
+    color: #e63e7e;
+    
+}
+
+#ultima img{
+    height: 400px;
+}
+
+#contenedorultimo .parrafo{
+    color:white ;
+    margin-bottom: 20px;
+    
+}
+
+#contenedorultimo{
+    margin: 0 auto;
+    width: 1280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+form{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 300px;
+   
+}
+
+.divform{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    align-items: center;
+}
+
+button{
+    margin-top: 10px;
+    background-color: #e63e7e;
+    padding: 5px 15px;
+    color: white;
+    border-radius: 10px;
+}
+button:hover{
+    color: #111111;
+    background-color: #e50914;
+}
+span{
+    color: #e50914;
+}
+/**section ultima**/
+
+/**footer**/
+footer{
+    height: 20px;
+    background-color: #e63e7e;
+    text-align: center;
+    padding: 15px;
+    margin-top:80px;
+}
+/**footer**/
+
+
+
